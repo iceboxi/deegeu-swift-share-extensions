@@ -11,7 +11,7 @@ import Photos
 
 class RedViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
-    let suiteName = "group.deegeu.swift.share.extension"
+    let suiteName = "group.iceboxi.AShareExtenion"
     let redDefaultKey = "RedColorImage"
     
     // Simply reads the selected image from NSUserDefaults and displays the
@@ -19,6 +19,7 @@ class RedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let prefs = NSUserDefaults(suiteName: suiteName) {
+//            print(prefs.dictionaryRepresentation())
             if let imageData = prefs.objectForKey(redDefaultKey) as? NSData {
                 dispatch_async(dispatch_get_main_queue(), { () -> Void in
                     self.imageView.image = UIImage(data: imageData)

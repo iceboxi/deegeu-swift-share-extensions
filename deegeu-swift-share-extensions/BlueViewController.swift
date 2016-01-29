@@ -10,7 +10,7 @@ import UIKit
 
 class BlueViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
-    let suiteName = "group.deegeu.swift.share.extension"
+    let suiteName = "group.iceboxi.AShareExtenion"
     let blueDefaultKey = "BlueColorImage"
     
     // Simply reads the selected image from NSUserDefaults and displays the
@@ -18,6 +18,7 @@ class BlueViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let prefs = NSUserDefaults(suiteName: suiteName) {
+//            print(prefs.dictionaryRepresentation())
             if let imageData = prefs.objectForKey(blueDefaultKey) as? NSData {
                 dispatch_async(dispatch_get_main_queue(), { () -> Void in
                     self.imageView.image = UIImage(data: imageData)

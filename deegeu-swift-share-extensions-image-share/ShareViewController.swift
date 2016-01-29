@@ -12,7 +12,7 @@ import MobileCoreServices
 
 class ShareViewController: SLComposeServiceViewController, ColorSelectionViewControllerDelegate {
 
-    let suiteName = "group.deegeu.swift.share.extension"
+    let suiteName = "group.iceboxi.AShareExtenion"
     let redDefaultKey = "RedColorImage"
     let blueDefaultKey = "BlueColorImage"
     
@@ -107,6 +107,8 @@ class ShareViewController: SLComposeServiceViewController, ColorSelectionViewCon
         if let prefs = NSUserDefaults(suiteName: suiteName) {
             prefs.removeObjectForKey(color)
             prefs.setObject(imageData, forKey: color)
+//            prefs.synchronize()
+//            print(prefs.dictionaryRepresentation())
         }
     }
 

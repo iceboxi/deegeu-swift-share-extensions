@@ -177,7 +177,7 @@
 				TargetAttributes = {
 					9991F5CC1BDEB3DB005C7BF6 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = W2LK2X63U8;
+						DevelopmentTeam = ULR9R6LMK2;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -186,7 +186,7 @@
 					};
 					999E5D731BDADB040042AB22 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = W2LK2X63U8;
+						DevelopmentTeam = ULR9R6LMK2;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -302,7 +302,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "deegeu-swift-share-extensions-image-share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-swift-share-extensions.deegeu-swift-share-extensions-image-share";
+				PRODUCT_BUNDLE_IDENTIFIER = "iceboxi.deegeu.deegeu-swift-share-extensions.deegeu-swift-share-extensions-image-share";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -317,7 +317,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "deegeu-swift-share-extensions-image-share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-swift-share-extensions.deegeu-swift-share-extensions-image-share";
+				PRODUCT_BUNDLE_IDENTIFIER = "iceboxi.deegeu.deegeu-swift-share-extensions.deegeu-swift-share-extensions-image-share";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -417,7 +417,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "deegeu-swift-share-extensions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-swift-share-extensions";
+				PRODUCT_BUNDLE_IDENTIFIER = "iceboxi.deegeu.deegeu-swift-share-extensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -433,7 +433,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "deegeu-swift-share-extensions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-swift-share-extensions";
+				PRODUCT_BUNDLE_IDENTIFIER = "iceboxi.deegeu.deegeu-swift-share-extensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
